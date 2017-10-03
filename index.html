@@ -1,0 +1,37 @@
+<html>
+	<head>
+	
+		<title>My task board</title>
+		<link rel="stylesheet" type="text/css" href="css/project1.css"/>
+		<script type="text/javascript" src="js/note.js"></script>
+		<script type="text/javascript" src="js/project 1_logic.js"></script>
+		
+	</head>
+	<body>
+	
+		<div id="mainTitleBlock">
+			<h1 id="mainTitle"><span id="my">My</span> task board</h1>
+			<hr class="line">
+		</div>
+		
+		<div id="containerOfDivInput">
+			<div class="inputs">			
+					<span class="fontOfTitle">Title</span> <input id="title" type="text" name="tname"><br><br>
+					<span class="fontOfTitle">When</span> <input id="when" type="date" name="wname"><br><br>
+					<span class="fontOfTitle">Description</span> <textarea id="description" cols="25" rows="4"></textarea><br><br>
+					<input id="inputAddTask" type="submit" value="add task" onclick="addItem()">			
+			</div> 
+		</div>
+		
+		<br><br>
+		
+		<div class="counterOfNotes">
+		You Have <span id="counter">0</span> Notes.<br><br>
+		</div>
+
+		<hr class="line" color="black">
+		
+		<ul id="notesContainer"></ul>
+		
+	</body>
+</html>

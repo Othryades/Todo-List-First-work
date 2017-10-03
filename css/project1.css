@@ -1,0 +1,101 @@
+body { 
+  background-image:url(../resources/img/wood-wallpaper.jpg);
+}
+
+#containerOfDivInput {
+	text-align: center;	
+}
+
+
+#mainTitleBlock {
+	
+}
+
+#textArea {
+	
+}
+
+#mainTitle {
+	 text-align: center;
+	 font-size: 50px;
+}
+
+
+ li { 
+	display: inline-block;
+	vertical-align: top;
+	margin: 17;
+    padding: 17;
+	background-image:url(../resources/img/yellow-background.jpg);
+	width: 198px;
+	height: 198px;
+	position: relative;
+	
+ }
+
+
+.fontOfTitle {
+	color : black;
+    display: inline-block;
+    width: 100px;
+	text-align: right;
+	
+}
+
+#title {
+	width:200px;
+}
+
+#when {
+	width:200px;
+}
+
+#description {
+	width:200px;
+}
+
+.counterOfNotes {
+	text-align: center;	
+}
+
+.imgx {
+	cursor: pointer;
+	position : absolute;
+	top : 0;
+	right : 0;
+	width: 6%;
+	height: 6%;
+}
+
+ul li p {
+	height: 95px;
+	overflow: auto;
+	word-break: break-word;
+}
+
+#my {
+	font-size: 33px;
+}
+
+#inputAddTask {
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+	background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+	box-shadow: 0 2px 0 0 ;
+}
+
+.labelFont {
+	color: brown;
+}
+
+
+
