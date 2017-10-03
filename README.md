@@ -27,5 +27,5 @@ I work on Todo list mostly in my own spare time. If you've found Todo list usefu
 
 ## License
 
-Copyright © 2015-2017 Moirs (orev5135@gmail.com). Released under the MIT License, see [LICENSE][license] for details.
+Copyright © 2015-2017 Othryades (orev5135@gmail.com). Released under the MIT License, see [LICENSE][license] for details.
 
